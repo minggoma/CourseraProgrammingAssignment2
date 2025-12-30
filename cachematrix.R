@@ -43,7 +43,11 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## Description: Returns the inverse of a matrix that was inputted into 
+## makeCacheMatrix.If inverse was already calculated, will return stored value
+## for inverse. If inverse was not calculated, will calculate inverse and return.
+## Arguments: list created by makeCacheMatrix
+## Returns: matrix
 
 cacheSolve <- function(x, ...) {
   
